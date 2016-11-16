@@ -1,0 +1,120 @@
+body {
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Inconsolata', sans-serif;
+    color: #black;
+}
+
+.project_page img {
+    border: .25em solid black;
+}
+
+.text_block {
+    _border: 1px solid black;
+    background-color: #BBBBBB;
+    padding: 1em;
+    width: 95%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header a {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+#sub_body {
+    padding-top: 2em;
+    margin: 2%;
+    margin-right: 3%;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.about {
+    float: left;
+    width: 70%;
+    margin: auto;
+    padding: 3%;
+    min-width: 200px;
+    font-size: large;
+}
+
+.clear {
+    clear: both;
+}
+
+h1, h2, h3 {
+    font-weight: 800;
+    padding-top: .5em;
+    padding-bottom: .1em;
+    margin: 0;
+    color: rgb(52,47,43);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.project_card {
+    float: left;
+    background-color: rgb(52,47,43);
+    border: 2px solid black;
+    width: 48%;
+    margin-left: 1%;
+}
+
+.project_thumb {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.project_abstract {
+    width: 96%;
+    padding: 2%;
+    color: #DDDDDD;
+}
+
+.footer {
+    _position: absolute;
+    _bottom: 0px;
+    clear: both;
+    width: 95%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    color: #eeeeee;
+    margin-bottom: 10px;
+    padding: 1%;
+    padding-left: 2%;
+}
+
+@media all and (max-width: 700px) {
+    
+    .project_card {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    
+}
