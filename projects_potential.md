@@ -8,5 +8,5 @@
 {% for page in site.pages %}
 {% if page.status contains 'potential' %}
 {% include project_card.html %}
-{% endif%}
+{% endif %}
 {% endfor %}

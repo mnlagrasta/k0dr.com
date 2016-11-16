@@ -1,7 +1,7 @@
 ---
 title: DeskLights2
-status: active, featured
-abstract: Version 1 of my ambient information display.
+status: complete, featured
+abstract: Version 2 of my ambient information display.
 ---
 
 # Desklights2

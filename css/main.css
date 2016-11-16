@@ -87,6 +87,7 @@ h1 {
     width: 96%;
     padding: 2%;
     color: #DDDDDD;
+    height: 3em;
 }
 
 .footer {
@@ -110,7 +111,7 @@ h1 {
     padding-left: 2%;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 800px) {
     
     .project_card {
         width: 100%;
