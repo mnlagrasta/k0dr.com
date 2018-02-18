@@ -15,7 +15,7 @@
     <h1>Featured Projects:</h1>
 {% for page in site.pages %}
   {% if page.status contains 'featured' %}
-    {% include project_Card.html %}
+    {% include project_card.html %}
   {% endif %}
 {% endfor %}
 
