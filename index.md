@@ -24,7 +24,7 @@
 <h1>Completed Projects</h1>
 {% for page in site.pages %}
   {% if page.status contains 'complete' %}
-    {% include project_Card.html %}
+    {% include project_card.html %}
   {% endif %}
 {% endfor %}
 
@@ -33,7 +33,7 @@
 <h1>Active Projects</h1>
 {% for page in site.pages %}
   {% if page.status contains 'active' %}
-    {% include project_Card.html %}
+    {% include project_card.html %}
   {% endif %}
 {% endfor %}
 
@@ -42,7 +42,7 @@
 <h1>Potential Projects</h1>
 {% for page in site.pages %}
   {% if page.status contains 'potential' %}
-    {% include project_Card.html %}
+    {% include project_card.html %}
   {% endif %}
 {% endfor %}
 
