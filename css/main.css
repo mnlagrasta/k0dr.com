@@ -31,12 +31,11 @@ a {
 }
 
 #sub_body {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 5%;
 }
 
 .first {
-    margin-right: 4%;
+    margin-right: 5%;
 }
 
 .clear {
@@ -46,7 +45,7 @@ a {
 h1, h2, h3 {
     font-weight: 800;
     padding-bottom: .1em;
-    padding-top: 1em;
+    padding-top: 1.5em;
     margin: 0;
     color: rgb(31,119,185); # blue from 0
 }
@@ -62,7 +61,7 @@ h1 {
 .project_card {
     float: left;
     background-color: black;
-    width: 48%;
+    width: 45%;
 }
 
 .project_thumb {
@@ -92,7 +91,7 @@ h1 {
     clear: both;
     width: 95%;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 3em;
 }
 
 @media all and (max-width: 600px) {

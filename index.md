@@ -19,7 +19,7 @@
 </div>
 
 <div class="project_list">
-<h1>Active Projects</h1>
+<h1>Active Projects:</h1>
 {% for page in site.pages %}
   {% if page.status contains 'active' %}
     {% include project_card.html %}
@@ -28,7 +28,7 @@
 </div>
 
 <div class="project_list">
-<h1>Completed Projects</h1>
+<h1>Completed Projects:</h1>
 {% for page in site.pages %}
   {% if page.status contains 'complete' %}
     {% include project_card.html %}
@@ -37,7 +37,7 @@
 </div>
 
 <div class="project_list">
-<h1>Potential Projects</h1>
+<h1>Potential Projects:</h1>
 {% for page in site.pages %}
   {% if page.status contains 'potential' %}
     {% include project_card.html %}
