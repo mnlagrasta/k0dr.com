@@ -1,8 +1,6 @@
 ---
 ---
 
-<div class="clear"></div>
-
 <!--
 <h1>Most Recent Post:</h1>
 <div class="text_block">
@@ -18,32 +16,31 @@
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
+</div>
 
-<div class="clear"></div>
-
-<h1>Completed Projects</h1>
-{% for page in site.pages %}
-  {% if page.status contains 'complete' %}
-    {% include project_card.html %}
-  {% endif %}
-{% endfor %}
-
-<div class="clear"></div>
-
+<div class="project_list">
 <h1>Active Projects</h1>
 {% for page in site.pages %}
   {% if page.status contains 'active' %}
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
+</div>
 
-<div class="clear"></div>
+<div class="project_list">
+<h1>Completed Projects</h1>
+{% for page in site.pages %}
+  {% if page.status contains 'complete' %}
+    {% include project_card.html %}
+  {% endif %}
+{% endfor %}
+</div>
 
+<div class="project_list">
 <h1>Potential Projects</h1>
 {% for page in site.pages %}
   {% if page.status contains 'potential' %}
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
-
 </div>

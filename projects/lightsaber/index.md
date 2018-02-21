@@ -1,7 +1,7 @@
 ---
 title: Lightsaber
 status: potential
-abstract: Convert a vintage photographic flash gun into a lightsaber with sound effects and a working flash light.
+abstract: Convert a vintage photo flash gun into a lightsaber with sound effects and flash light.
 ---
 
 # Lightsaber
@@ -15,4 +15,3 @@ Upon finding a vintage flash gun I realized that it was a similar model to that 
  1. Modify the shell to create a lightsaber. I am not intending to make a replica of anything from the movie. Instead, I'm following the canon idea that each jedi builds his own unique lightsaber as part of his training. In this case, mine should be unique.
  2. Repurpose the sound module from a toy lightsaber from Disneyland's "build your own lightsaber" station.
  3. Add a working flashlight so that I can actually get some use out of this thing. :)
- 
