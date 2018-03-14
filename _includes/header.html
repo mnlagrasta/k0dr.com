@@ -3,17 +3,30 @@
 <html>
 <head>
     <title>K0DR Open Source Workshop</title>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Share+Tech+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mitr:200,300" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
-</head>
+
+{% if page.title == 'K0DR.com' %}
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> </head>
+    <script src="/js/simple-carousel.js"></script>
+    <script>
+        
+        $(document).ready(function(){
+            c = new Carousel('#carousel');
+            c.auto_next(7000);
+        });
+        
+    </script>
+{% endif %}
+
 
 <body>
     <div id="header">
-        <img id="logo" src="./media/k0dr_logo_wide.svg">
+        <img id="logo" src="/media/k0dr_0.svg"><span class="title_large">K0DR</span>
     </div>
 
     <div id="top_nav">
-        Projects: <a href="#">Active</a>, <a href="#">Completed</a>, <a href="#">Potential</a>
+        Updates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects&nbsp;(&nbsp;<a href="#">Active</a>,&nbsp;<a href="#">Completed</a>,&nbsp;<a href="#">Potential&nbsp;)</a>
     </div>
 
     <div id="sub_body">

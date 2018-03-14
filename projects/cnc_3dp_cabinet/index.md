@@ -1,6 +1,6 @@
 ---
 title: CNC 3DP Cabinet
-status: active
+status: active, featured
 abstract: Creating a cabinet to hold my CNC router and enclose my 3d printer.
 ---
 
