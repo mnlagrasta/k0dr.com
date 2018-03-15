@@ -1,0 +1,23 @@
+---
+title: K0DR.com
+---
+
+<div id="carousel">
+
+{% for page in site.pages %}
+  {% if page.status contains 'featured' %}
+  <div class="wrapper">
+    {% include featured_project.html %}
+  </div>
+  {% endif %}
+{% endfor %}
+
+</div>
+
+<h1>Most Recent Update:</h1>
+<div class="blog_post">
+<h2>{{ site.posts.first.title }}</h2>
+<p>{{ site.posts.first.content }}</p>
+</div>
+
+{% include project_list.html %}

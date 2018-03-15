@@ -4,11 +4,7 @@ status: potential
 abstract: Convert a vintage photo flash gun into a lightsaber with sound effects and flash light.
 ---
 
-# Lightsaber
-
-![Lightsaber Image](./index.jpg)
-
-## Overview
+# Overview
 
 Upon finding a vintage flash gun I realized that it was a similar model to that used by ILM to create Darth Vader's light saber. I'll be doing the following with it:
 

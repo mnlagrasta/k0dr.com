@@ -10,6 +10,12 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4 {
+    color:  #1B75BC;
+    margin-bottom: .25em;
+    font-weight: 200;
+}
+
 .title_large {
     font-size: 10em;
     color: #1B75BC;
@@ -25,7 +31,6 @@ a {
 }
 
 #footer {
-    #background-color: white;
     width: 100%;
     padding-top: 2%;
     text-align: center;
@@ -34,6 +39,7 @@ a {
 }
 
 #logo {
+    color:  #1B75BC;
     height: 10em;
     vertical-align: middle;
 }
@@ -50,11 +56,13 @@ a {
 }
 
 #sub_body {
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .featured_project {
     position: relative;
+    margin-top: 5%;
     width: 100%;
 }
 
@@ -63,27 +71,15 @@ a {
     height: auto;
 }
 
-.featured_project h2 {
-    position: absolute;
-    bottom: 2em;
-    left: 0;
-    width: 100%;
-}
-
-h1, h2, h3, h4 {
-    color:  #1B75BC;
-    margin-top: 1em;
-    margin-bottom: .25em;
-    font-weight: 200;
-}
-
-#fp_caption {
+.fp_caption {
     background-color: rgba(255, 255, 255, .75);
+    margin: 0;
     position: absolute;
-    bottom: 0%;
-    left: 0;
+    top: 60%;
+    #bottom: 0%;
+    left: 0%;
     width: 96%;
-    height: 15%;
+    height: 20%;
     padding: 2%;
     overflow: visible;
 }
@@ -111,7 +107,12 @@ h1, h2, h3, h4 {
 }
 
 .project_list {
-    
+    clear:both;
+    float:none;
+}
+
+.pl_tag_desc {
+    margin-bottom: 2%;
 }
 
 .pc_first {
@@ -131,13 +132,6 @@ h1, h2, h3, h4 {
     float: none;
 }
 
-.content {
-    padding: 1%;
-    width: 42%;
-    float: left;
-    background-color: white;
-}
-
 .tag_words {
     border-radius: .2em;
     background-color: rgba(0, 0, 0, .5);
@@ -145,11 +139,17 @@ h1, h2, h3, h4 {
     padding: .25em;
 }
 
+.content {
+    background-color: white;
+    margin-top: 5%;
+    padding: 2%;
+    padding-top: .5%;
+}
+
 @media all and (max-width: 600px) {
 
     .project_card {
-        width: 96%;
-        margin-bottom: 2em;
+        width: 98%;
     }
 
 }
