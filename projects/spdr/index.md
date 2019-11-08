@@ -14,6 +14,11 @@ Photos of completed (more like ran out of time than completed) costume:
 
 ![SP//dr costume, front view](./media/SPdr_LaGrasta_medium.jpg)
 
+<video autoplay loop muted playsinline>
+  <source src="./media/SPdr_Faces.webm" type="video/webm">
+  <source src="./media/SPdr_Faces.mp4" type="video/mp4">
+</video>
+
 More images and video to follow.
 
 # Build Log
