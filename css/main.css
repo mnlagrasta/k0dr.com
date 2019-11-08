@@ -23,6 +23,23 @@ h1, h2, h3, h4 {
     vertical-align: middle;
 }
 
+table {
+  border: 1px solid black;
+}
+
+td {
+  padding: .5em;
+}
+
+th {
+  background-color: #1B75BC;
+  color: white;
+  padding: .5em;
+}
+
+tr:nth-child(even) {background-color: #dddddd;}
+
+
 #header {
   height: 4em;
   text-align: left;
