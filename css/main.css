@@ -1,6 +1,6 @@
 body {
     color: #666666;
-    background-color: #E8E8E8;
+    background-color: white;
     margin: 0px;
     padding: 0px;
     font-family: 'Inconsolata', sans-serif;
@@ -8,12 +8,13 @@ body {
 
 a {
     text-decoration: none;
+    color: #1B75BC;
 }
 
 h1, h2, h3, h4 {
     color:  #1B75BC;
     margin-bottom: .25em;
-    font-weight: 200;
+    font-weight: bold;
 }
 
 .title_large {
@@ -23,11 +24,11 @@ h1, h2, h3, h4 {
 }
 
 #header {
-    margin: 1em;
-    text-align: center;
-    background-color: white;
-    padding: 1em;
-    margin: 0px;
+  height: 4em;
+  text-align: left;
+  vertical-align:text-top;
+  padding: 1em;
+  float: left;
 }
 
 #footer {
@@ -40,20 +41,16 @@ h1, h2, h3, h4 {
 
 #logo {
     color:  #1B75BC;
-    height: 10em;
-    vertical-align: middle;
+    height: 4em;
 }
 
 #top_nav {
-    text-align: center;
-    background-color: #1B75BC;
-    color: white;
-    padding: .5em;
+	  height: 100%;
+    text-align: left;
+    color: #1B75BC;
+    padding: 2.4em;
 }
 
-#top_nav a {
-    color: white;
-}
 
 #sub_body {
     padding-left: 5%;
@@ -62,7 +59,7 @@ h1, h2, h3, h4 {
 
 .featured_project {
     position: relative;
-    margin-top: 5%;
+    margin-top: 0%;
     width: 100%;
 }
 
@@ -72,25 +69,28 @@ h1, h2, h3, h4 {
 }
 
 .fp_caption {
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(0, 0, 0, .75);
     margin: 0;
     position: absolute;
-    top: 60%;
-    #bottom: 0%;
-    left: 0%;
-    width: 96%;
-    height: 20%;
+    top: 70%;
+    left: 5%;
+    width: 40%;
+    height: auto;
     padding: 2%;
     overflow: visible;
 }
 
 .fp_title {
-    color: #1B75BC;
-    font-size: 2.5em;
+  zcolor: #1B75BC;
+  color: white;
+  font-size: 2.5em;
+	font-weight: bold;
 }
 
 .fp_abstract {
-    font-size: 1.5em
+  color: #AAAAAA;
+  font-size: 1.5em;
+	padding-top: 1em;
 }
 
 .fp_tags {
@@ -124,7 +124,6 @@ h1, h2, h3, h4 {
     padding: 1%;
     width: 47%;
     float: left;
-    background-color: white;
 }
 
 .clear {
@@ -140,7 +139,6 @@ h1, h2, h3, h4 {
 }
 
 .content {
-    background-color: white;
     margin-top: 5%;
     padding: 2%;
     padding-top: .5%;
