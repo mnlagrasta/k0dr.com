@@ -1,6 +1,6 @@
 ---
 title: DeskLights2
-status: complete, featured
+status: complete
 abstract: Version 2 of my ambient information display.
 ---
 
