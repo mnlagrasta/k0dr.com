@@ -4,18 +4,13 @@ title: K0DR.com
 
 <div class="grid_body">
 
-	{% assign mod = forloop.index | modulo: 2 %}
-	{% if mod == 0 %}
-			<!-- even -->
-	{% else %}
-			<!-- odd -->
-	{% endif %}
+	{% assign sorted_pages = site.pages | sort: "rank" %}
 
 	<div class="col1">
-		{% for page in site.pages %}
+		{% for page in sorted_pages %}
 			{% if page.dir contains 'projects' %}
 			{% assign mod = forloop.index | modulo: 2 %}
-			{% if mod == 0 %}
+			{% if mod != 0 %}
 		  	{% include project_card.html %}
 		  {% endif %}
 			{% endif %}
@@ -23,10 +18,10 @@ title: K0DR.com
 	</div><!-- col1 -->
 
 	<div class="col2">
-		{% for page in site.pages %}
+		{% for page in sorted_pages %}
 			{% if page.dir contains 'projects' %}
 			{% assign mod = forloop.index | modulo: 2 %}
-			{% if mod != 0 %}
+			{% if mod == 0 %}
 		  	{% include project_card.html %}
 		  {% endif %}
 		  {% endif %}

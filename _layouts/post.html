@@ -2,6 +2,9 @@
 <div class="sub_body">
 <h1>{{ page.title }}</h1>
 {{ page.date | date: "%B %d, %Y"}}
+<br>
+<div class="md_rendered, blog_post">
 {{ content }}
+</div>
 </div><!-- sub_body end -->
 {% include footer.html %}

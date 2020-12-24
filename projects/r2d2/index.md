@@ -1,6 +1,7 @@
 ---
 title: R2Dpi
-status: potential
+status: Potential
+rank: 5
 abstract: Adding network and sound to a stock R2D2 toy by embedding a Raspberry Pi.
 ---
 

@@ -1,11 +1,24 @@
 {% include header.html %}
 <div class="sub_body">
-	<div class="grid_p_stats">
-		<div class="grid_p_stats_image"><img src="{{ page.url | prepend: site.baseurl }}/index.jpg" alt="{{ page.title }}" /></div>
-		<div class="grid_p_stats_header">Project: </div><div>{{ page.title }}</div>
-		<div class="grid_p_stats_header">Status: </div><div>{{ page.status }}</div>
-		<div class="grid_p_stats_header">Abstract: </div><div>{{ page.abstract }}</div>
+
+<div class="project_header">
+	<div class="project_header_image">
+		<img src="{{ page.url | prepend: site.baseurl }}/index.jpg" alt="{{ page.title }}" />
 	</div>
+	<div class="project_header_meta">
+		<table>
+			<tr><th>Name:</th><td>{{ page.title }}</td></tr>
+			<tr><th>Status:</th><td>{{ page.status }}</td></tr>
+			<tr><th>Abstract:</th><td>{{ page.abstract }}</td></tr>
+		</table>
+	</div>
+</div>
+
+<div class="clear">&nbsp;</div>
+
+<br>
+<div class="md_rendered">
 {{ content }}
+</div>
 </div><!-- sub_body end -->
 {% include footer.html %}
