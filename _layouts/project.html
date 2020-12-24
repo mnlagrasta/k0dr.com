@@ -1,8 +1,11 @@
 {% include header.html %}
-{% include featured_project.html %}
-<div class="content">
-<div id="sub_body">
+<div class="sub_body">
+	<div class="grid_p_stats">
+		<div class="grid_p_stats_image"><img src="{{ page.url | prepend: site.baseurl }}/index.jpg" alt="{{ page.title }}" /></div>
+		<div class="grid_p_stats_header">Project: </div><div>{{ page.title }}</div>
+		<div class="grid_p_stats_header">Status: </div><div>{{ page.status }}</div>
+		<div class="grid_p_stats_header">Abstract: </div><div>{{ page.abstract }}</div>
+	</div>
 {{ content }}
 </div><!-- sub_body end -->
-</div>
 {% include footer.html %}

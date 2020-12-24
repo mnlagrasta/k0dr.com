@@ -1,10 +1,116 @@
 body {
-    color: #666666;
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Inconsolata', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #1E1C1C;
+	background-image: url("/media/bg_dark.jpg");
+	font-family: 'Inconsolata', sans-serif;
 }
+
+.grid_body {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 8%;
+	margin: 6%;
+}
+
+.sub_body {
+	background-color: #e4e3f2;
+	padding: 4%;
+	margin: 6%;
+}
+
+.grid_p_stats {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 1em;
+	grid-row-gap: 1em;
+	justify-content: flex-start;
+	font-size: 2em;
+	padding: .5em;
+	border: 1px solid black;
+}
+
+.grid_p_stats_image {
+	height: 100%;
+	grid-row-start: span 3
+}
+
+.grid_p_stats_image img {
+	height: 7em;
+	width: auto;
+}
+
+.grid_p_stats_header {
+	font-weight: bold;
+}
+
+#footer {
+	grid-column: span 2;
+	text-align: center;
+	background-color: #e4e3f2;
+	zwidth: 100%;
+	padding: 1em;
+}
+
+#header_grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: #e4e3f2;
+	padding: 1em;
+	align-items: baseline;
+}
+
+#header_left {
+	color: #1B75BC;
+}
+
+#header_right {
+	text-align: right;
+	color: #1B75BC;
+}
+
+#header_menu a {
+	font-size: 1.5em;
+}
+
+.p_item img {
+	width: 100%;
+	height: auto;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	vertical-align: middle;
+	height: 2.5em;
+	width: auto;
+}
+
+.p_item {
+}
+
+.p_item_main {
+	display: block;
+	color: #AAAAAA;
+	background: #111111;
+	margin: 2em 0 2em 0;
+	border: 0px solid #151515;
+}
+
+.p_item_overlay {
+	display: none;
+}
+
+.p_item_text {
+	padding: 1em;
+}
+
+
+
+
+
+
 
 a {
     text-decoration: none;
@@ -12,14 +118,13 @@ a {
 }
 
 h1, h2, h3, h4 {
-    color:  #1B75BC;
+    zcolor:  #1B75BC;
     margin-bottom: .25em;
     font-weight: bold;
 }
 
 .title_large {
     font-size: 10em;
-    color: #1B75BC;
     vertical-align: middle;
 }
 
@@ -40,39 +145,10 @@ th {
 tr:nth-child(even) {background-color: #dddddd;}
 
 
-#header {
-  height: 4em;
-  text-align: left;
-  vertical-align:text-top;
-  padding: 1em;
-  float: left;
-}
-
-#footer {
-    width: 100%;
-    padding-top: 2%;
-    text-align: center;
-    float:none;
-    clear:both;
-}
-
-#logo {
-    color:  #1B75BC;
-    height: 4em;
-}
-
-#top_nav {
-	  height: 100%;
-    text-align: left;
-    color: #1B75BC;
-    padding: 2.4em;
-}
 
 
-#sub_body {
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
+
 
 .featured_project {
     position: relative;
@@ -153,18 +229,4 @@ tr:nth-child(even) {background-color: #dddddd;}
     background-color: rgba(0, 0, 0, .5);
     color: white;
     padding: .25em;
-}
-
-.content {
-    margin-top: 5%;
-    padding: 2%;
-    padding-top: .5%;
-}
-
-@media all and (max-width: 600px) {
-
-    .project_card {
-        width: 98%;
-    }
-
 }

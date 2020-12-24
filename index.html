@@ -2,26 +2,35 @@
 title: K0DR.com
 ---
 
-<div id="carousel">
+<div class="grid_body">
 
-{% for page in site.pages %}
-  {% if page.status contains 'featured' %}
-  <div class="wrapper">
-    {% include featured_project.html %}
-  </div>
-  {% endif %}
-{% endfor %}
+	{% assign mod = forloop.index | modulo: 2 %}
+	{% if mod == 0 %}
+			<!-- even -->
+	{% else %}
+			<!-- odd -->
+	{% endif %}
+
+	<div class="col1">
+		{% for page in site.pages %}
+			{% if page.dir contains 'projects' %}
+			{% assign mod = forloop.index | modulo: 2 %}
+			{% if mod == 0 %}
+		  	{% include project_card.html %}
+		  {% endif %}
+			{% endif %}
+		{% endfor %}
+	</div><!-- col1 -->
+
+	<div class="col2">
+		{% for page in site.pages %}
+			{% if page.dir contains 'projects' %}
+			{% assign mod = forloop.index | modulo: 2 %}
+			{% if mod != 0 %}
+		  	{% include project_card.html %}
+		  {% endif %}
+		  {% endif %}
+		{% endfor %}
+	</div><!-- col2 -->
 
 </div>
-
-<div id="sub_body">
-
-<h1>Most Recent News:</h1>
-<div class="blog_post">
-<h2>{{ site.posts.first.title }}</h2>
-<p>{{ site.posts.first.content }}</p>
-</div>
-
-{% include project_list.html %}
-
-</div><!-- sub_body end -->

@@ -1,6 +1,6 @@
 ---
 title: Lightsaber
-status: potential
+status: active
 abstract: Convert a vintage photo flash gun into a lightsaber with sound effects and flash light.
 ---
 
