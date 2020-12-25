@@ -8,43 +8,15 @@ body {
 .grid_body {
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-gap: 5%;
-	margin: 0% 5% 5% 5%;
+	margin: 1em;
 }
 
 .sub_body {
-	padding: 5%;
-}
-
-.grid_p_stats {
-	display: grid;
-	grid-template-columns: 50% auto auto;
-	grid-column-gap: 1em;
-	grid-row-gap: 1em;
-	justify-content: flex-start;
-	font-size: 2em;
-	padding: .5em;
-	border: 1px solid black;
-}
-
-.grid_p_stats_image {
-	height: 100%;
-	grid-row-start: span 3
-}
-
-.grid_p_stats_image img {
-	height: 7em;
-	width: auto;
-}
-
-.grid_p_stats_header {
-	font-weight: bold;
+	margin: 5%;
 }
 
 #footer {
-	grid-column: span 2;
 	text-align: center;
-	zwidth: 100%;
 	padding: 1em;
 }
 
@@ -73,7 +45,6 @@ body {
 .p_item img {
 	width: 100%;
 	height: auto;
-	border: 0;
 	padding: 0;
 	margin: 0;
 }
@@ -85,19 +56,9 @@ body {
 }
 
 .p_item {
-}
-
-.p_item_main {
-	display: block;
+	margin: 1em;
 	color: #555555;
-	zbackground: #111111;
-	margin-top: 2em;
-	zmargin-left: 2em;
 	border: 1px solid #151515;
-}
-
-.p_item_overlay {
-	display: none;
 }
 
 .p_item_text {
@@ -109,10 +70,6 @@ body {
 	padding: 0;
 }
 
-
-
-
-
 a {
     text-decoration: none;
     color: #1B75BC;
@@ -122,11 +79,6 @@ h1, h2, h3, h4 {
     margin-bottom: .25em;
 		margin-top: 1;
     font-weight: lighter;
-}
-
-.title_large {
-    font-size: 10em;
-    vertical-align: middle;
 }
 
 .md_rendered table {
@@ -143,23 +95,23 @@ h1, h2, h3, h4 {
   padding: .5em;
 }
 
-.md_rendered  tr:nth-child(even) {background-color: #dddddd;}
+.md_rendered  tr:nth-child(even) {background-color: #EEEEEE;}
+.md_rendered  tr:nth-child(odd) {background-color: #CCCCCC;}
 
 .project_header {
 	overflow: auto;
-	zborder: 1px solid black;
+	border: 1px solid black;
 }
 
 .project_header_image {
 	float: left;
 	max-width: 40%;
-
 }
 
 .project_header_image img {
 	width: 100%;
 	height: auto;
-
+  padding: .25em;
 }
 
 .project_header_meta {
@@ -173,14 +125,11 @@ h1, h2, h3, h4 {
 	padding: .25em;
 }
 
-
 .project_header th {
 	text-align: right;
 }
 
 .blog_post {
-    zwidth: 96%;
-    zbackground-color: white;
     padding: 2%;
 }
 

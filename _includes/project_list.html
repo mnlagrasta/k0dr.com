@@ -1,9 +1,9 @@
-<div class="content">
+<div class="sub_body">
 <div class="project_list">
 <h1>Active Projects:</h1>
 <div class="pl_tag_desc">These should be considered a work in progress. I will update the build logs as I am able.</div>
 {% for page in site.pages %}
-  {% if page.status contains 'active' %}
+  {% if page.status contains 'Active' %}
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
@@ -11,9 +11,9 @@
 
 <div class="project_list">
 <h1>Completed Projects:</h1>
-<div class="pl_tag_desc">These projects have reached a stable state. They may evolve based on use, but are ready to exhibited, forked, etc.</div>
+<div class="pl_tag_desc">These projects have reached a stable state. They may evolve based on use, but are ready to be exhibited, forked, etc.</div>
 {% for page in site.pages %}
-  {% if page.status contains 'complete' %}
+  {% if page.status contains 'Completed' %}
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
@@ -23,7 +23,7 @@
 <h1>Potential Projects:</h1>
 <div class="pl_tag_desc">These are projects that I am likely to work on in the future...time permitting.</div>
 {% for page in site.pages %}
-  {% if page.status contains 'potential' %}
+  {% if page.status contains 'Potential' %}
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
