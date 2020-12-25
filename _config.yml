@@ -16,7 +16,7 @@
 title: k0dr.com
 email: k0dr@k0dr.com
 description: > # this means to ignore newlines until "baseurl:"
-Project repository for k0dr.com
+  Project repository for k0dr.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://k0dr.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
