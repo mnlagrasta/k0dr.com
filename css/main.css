@@ -1,12 +1,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #BBBBBB;
+	background-color: #DDDDDD;
 	font-family: 'Inconsolata', sans-serif;
 }
 
 .grid_body {
-	margin: 5em;
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 2em;
 }
 
 .sub_body {
@@ -51,7 +53,7 @@ body {
 
 .logo {
 	vertical-align: middle;
-	height: 8em;
+	height: 2.5em;
 	width: auto;
 }
 
