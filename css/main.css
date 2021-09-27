@@ -20,9 +20,17 @@ body {
 	padding: 1em;
 }
 
+#header {
+	padding: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	align-items: baseline;
+	background-color: #EEEEEE;
+}
+
 #header_grid {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto;
 	padding: 1em;
 	padding-bottom: 1em;
 	align-items: baseline;
@@ -33,8 +41,12 @@ body {
 	color: #1B75BC;
 }
 
+#header_center {
+	color: #1B75BC;
+}
+
 #header_right {
-	text-align: right;
+	text-align: center;
 	color: #1B75BC;
 }
 
@@ -53,7 +65,7 @@ body {
 
 .logo {
 	vertical-align: middle;
-	height: 2.5em;
+	height: 5em;
 	width: auto;
 }
 

@@ -2,13 +2,12 @@
 <div class="project_list">
 
 <h1>Featured Projects:</h1>
-<div class="pl_tag_desc">These should be considered a work in progress. I will update the build logs as I am able.</div>
+<div class="pl_tag_desc">These are the projects that are either extremely current or have gathered more attention.</div>
 {% for page in site.pages %}
   {% if page.status contains 'Featured' %}
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
-</div>
 
 <h1>Active Projects:</h1>
 <div class="pl_tag_desc">These should be considered a work in progress. I will update the build logs as I am able.</div>
@@ -17,7 +16,6 @@
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
-</div>
 
 <div class="project_list">
 <h1>Completed Projects:</h1>
@@ -27,7 +25,6 @@
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
-</div>
 
 <div class="project_list">
 <h1>Potential Projects:</h1>
@@ -37,5 +34,6 @@
     {% include project_card.html %}
   {% endif %}
 {% endfor %}
-</div>
+
+</div><!-- project_list end -->
 </div><!-- sub_body end -->
