@@ -1,6 +1,6 @@
 ---
 title: SP//dr
-status: Completed
+status: Completed, Featured
 date: 2019-10-31 12:00:00
 rank: 1
 abstract: Attempting a Cosplay style build of the SP//dr robot from "Spiderman&#58; Into the Spider-Verse".
