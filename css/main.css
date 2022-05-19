@@ -55,14 +55,6 @@ body {
 	font-weight: lighter;
 }
 
-.p_item img {
-	width: 100%;
-	height: auto;
-	padding: 0;
-	margin: 0;
-	border-radius: 1em 1em 0em 0em;
-}
-
 .logo {
 	vertical-align: middle;
 	height: 5em;
@@ -70,11 +62,21 @@ body {
 }
 
 .p_item {
-	margin: 2em;
+	width: 29%;
+	margin: 2%;
 	color: #555555;
 	background-color: #EEEEEE;
 	border: 1px solid #EEEEEE;
 	border-radius: 1em;
+	float: left;
+}
+
+.p_item img {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border-radius: 1em 1em 0em 0em;
 }
 
 .p_item_text {
