@@ -1,17 +1,9 @@
-<div class="sub_body">
 <div class="project_list">
 
-
-
-{% for page in site.pages %}
+{% for page in site.pages | sort page.rank %}
 	{% if page.dir contains "projects" %}
   	{% include project_card.html %}
 	{% endif %}
 {% endfor %}
 
-
-
-
-
 </div><!-- project_list end -->
-</div><!-- sub_body end -->
