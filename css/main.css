@@ -182,6 +182,10 @@ h1, h2, h3, h4 {
 	text-align: right;
 }
 
+.project_body img {
+	max-width: 95%;
+}
+
 .blog_post {
     padding: 2%;
 }

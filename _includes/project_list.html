@@ -1,6 +1,7 @@
 <div class="project_list">
 
-{% for page in site.pages | sort page.rank %}
+{% assign sorted_pages = site.pages | sort: "rank" %}
+{% for page in sorted_pages %}
 	{% if page.dir contains "projects" %}
   	{% include project_card.html %}
 	{% endif %}
