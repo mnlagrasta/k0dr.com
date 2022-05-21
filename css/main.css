@@ -1,7 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #DDDDDD;
+	zbackground-color: #DDDDDD;
+	background-color: #1C1C1C;
+	color: #EEEEEE;
 	font-family: 'Inconsolata', sans-serif;
 }
 
@@ -35,24 +37,6 @@ body {
 	padding-bottom: 1em;
 	align-items: baseline;
 	background-color: #EEEEEE;
-}
-
-#header_left {
-	color: #1B75BC;
-}
-
-#header_center {
-	color: #1B75BC;
-}
-
-#header_right {
-	text-align: center;
-	color: #1B75BC;
-}
-
-#header_menu a {
-	font-size: 1.5em;
-	font-weight: lighter;
 }
 
 .logo {
@@ -152,7 +136,7 @@ h1, h2, h3, h4 {
 	overflow: auto;
 	border: 1px solid #FFFFFF;
 	border-radius: 1em;
-	background-color: #EEEEEE;
+	background-color: #AAAAAA;
 }
 
 .project_header_image {
